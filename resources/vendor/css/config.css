@@ -1,0 +1,56 @@
+.slide-fade-enter {
+    transform: translateX(10px);
+    opacity: 0;
+}
+
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+    transition: all 0.2s ease;
+}
+
+.slide-fade-leave-to {
+    transform: translateX(-10px);
+    opacity: 0;
+}
+
+.btnWidth {
+    width: 49% !important;
+}
+
+.btnFull {
+    width: 100% !important;
+}
+
+.el-select {
+    width: 100% !important;
+}
+
+.user-block {
+    list-style: none;
+}
+
+.scrollTable {
+    max-height: 350px !important;
+    overflow: auto !important;
+}
+
+.el-input-number {
+    width: 100% !important;
+}
+
+.el-autocomplete {
+    width: 100% !important;
+}
+
+.vs-input {
+    width: 100% !important;
+    border-radius: 1px !important;
+}
+
+.vs-tooltip-content {
+    width: min-content !important;
+}
+
+.vs-input-parent {
+    width: 100% !important;
+}
